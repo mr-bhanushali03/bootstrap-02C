@@ -6,8 +6,8 @@
 .theme-color {
   color: var(--primary);
 }
-.theme-text{
-  color:#152440;
+.theme-text {
+  color: #152440;
 }
 /* bgC */
 .bg-consultU {
@@ -201,7 +201,7 @@
 .navbar-dark .navbar-nav .show > .nav-linkC {
   color: #fff;
 }
-/* nav-linkCC */
+/* nav-linkC */
 
 /* consult email-phone \ */
 .top-shape::before {
@@ -242,7 +242,7 @@
   color: #000;
 }
 
-.max-width-carousel {
+.max-width-carouselC {
   max-width: 900px;
 }
 
@@ -270,7 +270,23 @@
 }
 
 /* carouselC */
-
+/* carousel-CustBtn */
+.carousel-CustBtn {
+  border: 0;
+  height: 53px;
+  width: 53px;
+}
+.carousel-CustBtn:hover {
+  color: black;
+  box-shadow: 0 0 0 0.25rem rgba(55, 185, 105, 0.332);
+}
+.carousel-CustBtn:focus
+,.carousel-CustBtn:active {
+  background-color: var(--primary);
+  background-color: #003d21bc;
+  border-color: #ffffff;
+}
+/* carousel-CustBtn */
 /* footer */
 .footTheme {
   color: white;
@@ -328,5 +344,32 @@
 }
 /* social-media */
 /* team-item */
+.team-item img {
+  transform: scale(1.15);
+  margin-left: -30px;
+  transition: 0.5s;
+}
+.team-item img:hover {
+  margin-left: 0;
+}
 
+.team-item .team-text::after {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 0;
+  top: 50%;
+  right: -60px;
+  margin-top: -30px;
+  border: 30px solid;
+  border-color: transparent transparent transparent var(--primary);
+}
+.team-text {
+  left: -500px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.team-text:hover {
+  left: 0;
+}
 /* team-item */
