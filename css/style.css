@@ -364,6 +364,9 @@
   border: 30px solid;
   border-color: transparent transparent transparent var(--primary);
 }
+.team-item:hover .team-text{
+  left: 0; 
+}
 .team-text {
   left: -500px;
   cursor: pointer;
@@ -373,3 +376,11 @@
   left: 0;
 }
 /* team-item */
+/* blog-item */
+.blog-item{
+  transition: 0.6s;
+}
+.blog-item:hover{
+  transform: scale(1.15);
+}
+/* blog-item */
