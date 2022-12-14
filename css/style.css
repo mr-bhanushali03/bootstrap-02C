@@ -6,9 +6,11 @@
 .theme-color {
   color: var(--primary);
 }
+
 .theme-text {
   color: #152440;
 }
+
 /* bgC */
 .bg-consultU {
   background-color: var(--primary);
@@ -19,13 +21,30 @@
 }
 
 /* bgC */
+
+/* object-fit-cover */
+
+.object-fit-fill {
+  object-fit: fill;
+}
+@media (min-width: 576px) {
+  .object-fit-cover-sm {
+    object-fit: cover;
+  }
+}
+
+/* object-fit-cover */
+
 /* icon-height/width  */
 .heiWidIcon {
   height: 80px;
   width: 80px;
 }
+
 /* icon-height/width  */
+
 /* service-item */
+
 .service-item {
   position: relative;
   overflow: hidden;
@@ -36,6 +55,7 @@
   justify-content: center;
   transition: 0.3s;
 }
+
 .service-item:hover p {
   margin-bottom: 25px !important;
 }
@@ -43,7 +63,9 @@
 .service-item p {
   transition: 0.3s;
 }
+
 /* service-item */
+
 /* text-nav */
 .text-nav {
   color: #000;
@@ -139,28 +161,33 @@
 .nav-justified .nav-item .nav-linkC {
   width: 100%;
 }
+
 .navbar-nav .nav-linkC {
   padding-right: 0;
   padding-left: 0;
 }
+
 @media (min-width: 576px) {
   .navbar-expand-sm .navbar-nav .nav-linkC {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
 }
+
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-linkC {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-linkC {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
 }
+
 .navbar-expand .navbar-nav .nav-linkC {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -201,6 +228,7 @@
 .navbar-dark .navbar-nav .show > .nav-linkC {
   color: #fff;
 }
+
 /* nav-linkC */
 
 /* consult email-phone \ */
@@ -231,6 +259,7 @@
   color: #fff;
   text-align: center;
 }
+
 .carousel-captionC {
   top: 0;
   left: 0;
@@ -238,6 +267,7 @@
   bottom: 0;
   background: rgba(21, 36, 64, 0.5);
 }
+
 .carousel-dark .carousel-captionC {
   color: #000;
 }
@@ -276,44 +306,57 @@
   height: 53px;
   width: 53px;
 }
+
 .carousel-CustBtn:hover {
   color: black;
   box-shadow: 0 0 0 0.25rem rgba(55, 185, 105, 0.332);
 }
-.carousel-CustBtn:focus
-,.carousel-CustBtn:active {
+
+.carousel-CustBtn:focus,
+.carousel-CustBtn:active {
   background-color: var(--primary);
   background-color: #003d21bc;
   border-color: #ffffff;
 }
+
 /* carousel-CustBtn */
+
+/* client-padding */
+.client-padding{
+  
+  padding: 110px 30px 110px 30px;
+
+}
+/* client-padding */
 /* footer */
 .footTheme {
   color: white;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
+
 .footTheme:hover {
   color: var(--primary);
 }
+
 /* footer */
 
 /* social-media */
 .btn-followUs {
-  color: #fff;
-  padding: 9px 16px 13px 16px;
+  padding: 12px 13px 7px 13px;
   background-color: #ffffff;
   border-color: #ffffff;
 }
-.btn-followUs:hover {
-  color: #fff;
-  background-color: var(--primary);
+
+.btn-followUs:hover i {
+  color: #083c24;
+  background-color: rgba(255, 255, 255, 0.829);
 }
 
 .btn-check:focus + .btn-followUs,
 .btn-followUs:focus {
   color: #fff;
-  background-color: var(--primary);
+  background-color: rgba(255, 255, 255, 0.829);
   border-color: #ffffff;
   box-shadow: 0 0 0 0.25rem rgba(55, 185, 105, 0.332);
 }
@@ -324,7 +367,7 @@
 .btn-followUs:active,
 .show > .btn-followUs.dropdown-toggle {
   color: #fff;
-  background-color: var(--primary);
+  background-color: rgba(255, 255, 255, 0.829);
   border-color: #ffffff;
 }
 
@@ -342,6 +385,7 @@
   background-color: #5b5b5b;
   border-color: #818181;
 }
+
 /* social-media */
 /* team-item */
 .team-item img {
@@ -349,6 +393,7 @@
   margin-left: -30px;
   transition: 0.5s;
 }
+
 .team-item img:hover {
   margin-left: 0;
 }
@@ -364,23 +409,40 @@
   border: 30px solid;
   border-color: transparent transparent transparent var(--primary);
 }
-.team-item:hover .team-text{
-  left: 0; 
+
+.team-item:hover .team-text {
+  left: 0;
 }
+
 .team-text {
   left: -500px;
   cursor: pointer;
   transition: 0.6s;
 }
+
 .team-text:hover {
   left: 0;
 }
+
 /* team-item */
+/* blog */
 /* blog-item */
-.blog-item{
+.blog-item {
   transition: 0.6s;
 }
-.blog-item:hover{
+
+.blog-item:hover {
   transform: scale(1.15);
 }
 /* blog-item */
+/* blog-post */
+ .blog-post{
+  text-decoration: none;
+  color:var(--primary);
+ }
+ .blog-post:hover{
+  color:#184c34;
+ }
+
+/* blog-post */
+/* blog */
