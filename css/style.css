@@ -22,6 +22,24 @@
 
 /* bgC */
 
+/* What we offer */
+.service-item-icon-bg {
+  background-color: var(--primary);
+  color: #fff;
+}
+.service-item-icon-bg{
+
+}
+
+div.btn-outline-success:hover>.service-item-icon-bg>i{
+  color: var(--primary);
+}
+div.btn-outline-success:hover>.service-item-icon-bg{
+  background: #fff;
+}
+
+/* What we offer */
+
 /* object-fit-cover */
 
 .object-fit-fill {

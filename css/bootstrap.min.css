@@ -3694,7 +3694,7 @@ fieldset:disabled .btn {
   border-color: #198754;
 }
 
-.btn-outline-success:hover {
+.btn-outline-success:hover{
   color: #fff;
   background-color: #198754;
   border-color: #198754;
