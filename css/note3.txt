@@ -1,0 +1,34 @@
+Pages dropdown from navbar section
+<li class="nav-item m-2 d-md-flex d-sm-flex justify-content-end dropdown">
+            <a class="nav-linkC dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item nav-linkC" href="#">
+                  Something
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-linkC" href="#">
+                  Something
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-linkC" href="#">
+                  Something
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-linkC" href="#">
+                  Something
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item nav-linkC" href="#">
+                  Something
+                </a>
+              </li>
+            </ul>
+          </li>
