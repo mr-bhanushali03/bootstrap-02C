@@ -8,13 +8,59 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/script.js"></script>
-    <script
+    <!-- <script
       src="https://kit.fontawesome.com/e7ee5405c4.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </head>
 
   <body>
+    <!-- <div class="cursor"></div> -->
+    <div id="modal-overlay">
+      <div id="modal">
+        <div class="modal-headerC">
+          <h2 class="theme-text">Contact Us</h2>
+          <a href="#" class="cross-modal fs-4">X</a>
+        </div>
+
+        <div class="modal-contentC">
+          <form action="#" method="#">
+            <input
+              id="firstName"
+              class="col-12 form-control my-3"
+              name="firstName"
+              type="text"
+              placeholder="Enter Your First Name"
+            />
+            <input
+              id="lastName"
+              class="col-12 form-control mb-3 "
+              name="lastName"
+              type="text"
+              placeholder="Enter Your Last Name"
+            />
+            <input
+              type="email"
+              class="col-12 form-control mb-3"
+              id="emailAddress"
+              placeholder="Enter Your E-mail"
+            />
+            <textarea
+              class="col-12 form-control mb-3"
+              id="exampleFormControlTextarea1"
+              placeholder="Enter your Queries/feedback"
+              rows="4"
+            ></textarea>
+          </form>
+        </div>
+
+        <div class="modal-footerC">
+          <button class="btn btn-success w-100 rounded-pill fw-bolder">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- not Sticky nav-->
     <div class="container-fluid ps-5 pe-0 d-none bg-lightStickNot d-lg-block">
       <div class="row" style="--bs-gutter-x: 0">
@@ -101,22 +147,23 @@
             </li>
             <li
               class="nav-item m-2 d-md-flex d-sm-flex justify-content-end"
-              onclick="contactModal()"
+              id="open-modal"
             >
-              <a class="nav-linkC" id="contactModal">Contact</a>
+              <a class="nav-linkC">Contact</a>
             </li>
           </ul>
           <!-- button is will be done by JS code -->
           <!-- <form class="d-md-flex d-sm-flex justify-content-end">
-          <button class="btn btn-outline-success text-uppercase rounded-pill m-2" type="submit">
-            Log in
-          </button>
-        </form> -->
+            <button class="btn btn-outline-success text-uppercase rounded-pill m-2" type="submit">
+              Log in
+            </button>
+          </form> -->
           <input type="checkbox" name="switchTheme" id="switch" />
         </div>
       </div>
     </nav>
     <!-- Sticky nav-->
+
     <!-- Header -->
     <div
       id="carouselExampleFade"
@@ -133,7 +180,7 @@
           >
             <div class="p-3 max-width-carouselC">
               <h5 class="text-white text-uppercase fw-bolder">
-                Business Consultancy
+                Bgusiness Consultancy
               </h5>
               <h1 class="text-white mb-md-4 fw-bolder">
                 We Provide Solution On Your Business
@@ -916,7 +963,7 @@
                   </p>
                 </div>
                 <a class="blog-post h3" href="#"
-                  >Lorem ipsum, dolor sit amet consecte magnam
+                  >Lorem ipsum, dolor sit amet consecte
                 </a>
               </div>
             </div>
@@ -1060,7 +1107,6 @@
         </div>
       </div>
     </div>
-    <!-- <div class="cursor"></div> -->
     <!-- footer -->
   </body>
 </html>
