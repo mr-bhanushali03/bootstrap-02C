@@ -27,17 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
   //showModal
   const showModalWindow = () => {
     modalWindowOverlay.style.display = "flex";
-    // Enable scroll
-    // document.body.style.overflow = "hidden";
+    modalWindowOverlay.style.position = "fixed";
   };
   openModalButton.addEventListener("click", showModalWindow);
 
   // hideModal
   const hideModalWindow = () => {
     modalWindowOverlay.style.display = "none";
-    // disable scroll
-
-    // document.body.style.overflow = "auto";
   };
   crossModal.addEventListener("click", hideModalWindow);
 
